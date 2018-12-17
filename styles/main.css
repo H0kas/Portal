@@ -1,0 +1,67 @@
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 2);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.card-link {
+	text-decoration: none;
+	color: #000;
+}
+
+.card-link:hover {
+	color: #000;
+}
+
+.hiddenn {
+	display: none;
+}
+
+.showw {
+	display: block;
+}
+
+.edit-input {
+	padding: 0px 10px;
+	height: 24px;
+}
+
+.edit-button-box {
+	margin-top: 40px;
+}
+
+.edit-button-box a {
+	color: #fff !important;
+}
